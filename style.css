@@ -1,3 +1,14 @@
-.bg{
+.container{
     background-image: url(./assets-20210424T204913Z-001/assets/backgrounds/landing.jpg);
+    position: cover;
+}
+.list1{
+    background-color: white;
+}
+.list{
+    direction: flex;
+
+}
+.div>logo{
+    text-align: center;
 }
