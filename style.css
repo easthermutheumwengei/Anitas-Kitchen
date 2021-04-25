@@ -71,3 +71,6 @@ color: white;
     background-color: white;
     padding-top: 60px;
 }
+.customers{
+    display: flex;
+}
