@@ -62,3 +62,8 @@
     justify-content: space-around;
     align-items: center;
 }
+.fd2{
+display: flex;
+justify-content: space-around;
+color: white;
+}
