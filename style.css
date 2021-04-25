@@ -9,3 +9,19 @@
     text-align: center;
     color: white;
 }
+.list2{
+    display: flex;
+}
+.items{
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+.item1{
+    border: 1px solid red;
+}
+.item2{
+    border: 1px solid white;
+}
