@@ -81,4 +81,18 @@ color: white;
 .get{
     background-image: url("./assets-20210424T204913Z-001/assets/backgrounds/subscribe.jpg");
     height: 500px;
+    text-align: center;
+    color: white;
+    padding-bottom: 30px;
+}
+.email{
+    background-color: white;
+    padding: 10px 20px;
+}
+.button{
+    background-color: #F15A29;
+    padding: 10px 20px;
+}
+.all{
+    padding-bottom: 200px;
 }
