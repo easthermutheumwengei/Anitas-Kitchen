@@ -27,6 +27,7 @@
 }
 .fastfoods{
     display: flex;
+    padding-top: 60px;
 }
 .fastimg{
     display: flex;
@@ -34,4 +35,20 @@
 }
 .fastfood1{
     text-align: center;
+    padding-left: 40px;
+}
+.gallery{
+    border: solid red;
+    padding: 10px;
+}
+.drinks{
+    display: flex;
+}
+.main{
+    display: flex;
+    padding-top: 60px;
+    flex-direction: ;
+}
+.main2{
+    text-align: left;
 }
