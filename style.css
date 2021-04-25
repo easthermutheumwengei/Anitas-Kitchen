@@ -1,9 +1,11 @@
-*{
-    margin: 0;
-    padding: 0;
+.container{
+    background-image: url("./assets-20210424T204913Z-001/assets/backgrounds/landing.jpg");
+    height: 900px;
 }
-.bg{
-    position: relative;
-    width: 90%;
-    margin: 0 auto;
+.logo{
+    text-align: center;
+}
+.text{
+    text-align: center;
+    color: white;
 }
