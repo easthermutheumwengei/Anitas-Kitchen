@@ -24,7 +24,7 @@ _Enjoy :)_
 HTML
 CSS
 Git
-Javascript
+
 
 
 ### Live Site
