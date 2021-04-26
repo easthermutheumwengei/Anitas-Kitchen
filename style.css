@@ -1,3 +1,8 @@
+*body{
+    margin: 2%,2%,0,2%;
+    padding: 0;
+    box-sizing: border-box;
+}
 .container{
     background-image: url("./assets-20210424T204913Z-001/assets/backgrounds/landing.jpg");
     height: 900px;
@@ -13,17 +18,46 @@
     display: flex;
 }
 .items{
-    width: 30%;
     display: flex;
     flex-direction: column;
     align-items: center;
+    width: 25%;
+    height: 10vh;
+    padding-bottom: 100px;
+
 
 }
-.item1{
-    border: 1px solid red;
+#item1{
+    font-size: 40px;
+    height: 18vh;
+    align-items: center;
+    font-style: italic;
 }
-.item2{
-    border: 1px color white;
+#item2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* color: white; */
+    font-style: italic;
+    height: 60px;
+    width: 100%;
+    font-size: 40px;
+    background-color: #F15A29;
+    padding: 10px;
+    
+}
+.breakfast{
+    /* background-image: url("./assets-20210424T204913Z-001/assets/foodtop/breakfast.jpg"); */
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-style: italic;
+    height: 20vh;
+    width: 20%;
+    font-size: 20px;
+    text-align: center;
 }
 .fastfoods{
     display: flex;
@@ -37,9 +71,10 @@
     text-align: center;
     padding-left: 40px;
 }
-.gallery{
+.g1{
     border: solid red;
     padding: 10px 0;
+    border-width: 1px;
 }
 .drinks{
     display: flex;
@@ -67,12 +102,29 @@ display: flex;
 justify-content: space-around;
 color: white;
 }
-.combination{
+nav h4 {
     background-color: white;
     padding-top: 60px;
 }
 .customers{
     display: flex;
+    text-align: left;
+    /* margin-right: 50%; */
+    /* border: 2px solid grey;
+    padding: 1%;
+    width: 40%;
+    align-items: center;
+    margin-left: 10%; */
+}
+.name{
+    color: #F15A29;
+}
+.hc{
+    text-align: center;
+    color: #F15A29;
+}
+.para{
+    color:black;
 }
 .border{
     border-left: 1px solid black;
@@ -80,7 +132,7 @@ color: white;
 }
 .get{
     background-image: url("./assets-20210424T204913Z-001/assets/backgrounds/subscribe.jpg");
-    height: 500px;
+    height: 600px;
     text-align: center;
     color: white;
     padding-bottom: 30px;
@@ -95,4 +147,39 @@ color: white;
 }
 .all{
     padding-bottom: 200px;
+}
+.menu{
+    text-align: right;
+    margin-left: 50%;
+    width: 40%;
+    padding: 1%;
+    border: 2px solid grey;
+}
+.about h3{
+    color: #F15A29;
+}
+}
+.menu1{
+    display: flex;
+    flex-direction: right;
+    justify-content: center;
+    background-color: #F15A29;
+    height: 300px;
+    color: white;
+    text-align: center;
+    padding-top: 20px;
+}
+.menu2{
+    background-color: #F15A29;
+    padding-bottom: 20px;
+    text-align: center;
+}
+h6{
+    display: flex;
+    justify-content: center;
+    background-color: #F15A29;
+}
+.icons3{
+    display: flex;
+    justify-content: space-around;
 }
